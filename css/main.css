@@ -1,0 +1,115 @@
+
+
+:root {
+	--color-green: #00C299;
+	--color-greyblue: #7A92AD;
+	--color-greyscale01: #1E201F;
+	--color-greyscale04: #797979;
+	--color-greyscale05: #A5A6A5;
+}
+
+p {
+	color: var(--color-greyscale04);
+	Font-family: PingFang TC;
+	font-weight: 400;
+	Font-size: 16px;
+	Line-height: 24px;
+	margin: 4px 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-greyblue);
+}
+
+img {
+	width: 100%;
+}
+
+.getCoupon {
+	background-color: #F7FAF9;
+}
+
+.header {
+	background-color: #00BC55;
+	padding: 52px 0;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.header img {
+	width: 331px;
+}
+
+
+.container {
+	margin: 0 auto;
+	max-width: 650px;
+	padding: 0 24px;
+}
+
+.container > section {
+	margin-bottom: 40px;
+}
+
+.title > h2 {
+	color: var(--color-greyscale01);
+	font-size: 20xp;
+	font-family: PingFang TC;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.content > div.img {
+	width: 360px;
+	height: 300px;
+	position: relative;
+	margin: 80px auto 0px;
+}
+
+.content > div.img .qrcode {
+	position: absolute;
+	width: 140px;
+}
+
+.note p{
+	color: var(--color-greyscale04);
+	Font-size: 13px;
+	Line-height: 18px;
+}
+
+.footer p {
+	color: var(--color-greyscale05);
+	Font-size: 13px;
+	Line-height: 18px;
+	margin-top: 60px;
+}
+
+section.footer {
+	margin-bottom: 12px;
+}
+
+
+.divider {
+	border-top: 1px solid #E8E8E8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
